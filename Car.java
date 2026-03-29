@@ -14,7 +14,7 @@ public class Car {
             System.out.println(brand+" Slowing Down "+speed);
         }
     }
-    void setter(){
+    Car(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter car brand: ");
         brand=sc.nextLine();
@@ -36,7 +36,7 @@ public class Car {
         // c2.brake();
         // c1.brake();
         // c2.brake();
-        c1.setter();
+        // c1.setter();
         System.out.println(c1.brand);
     }
 }
